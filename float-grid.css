@@ -75,7 +75,7 @@
   } */
 
   header {
-    padding-top: 10em;
+    padding-top: 5em;
   }
 
   .nav-button-link {
@@ -86,6 +86,12 @@
   .nav-bar {
     padding: .5em;
   }
+
+  h1{
+    font-size: xx-large;
+  }
+
+
 
   .css-banner {
     padding-top: 0;
@@ -108,8 +114,9 @@
   .nav-name { 
     /* float:left; */
     /* padding-left: 2em; */
-    display:block;
-    font-size: xx-large;
+    /* display:block;
+    font-size: xx-large; */
+    display:none;
   }
 
 }  

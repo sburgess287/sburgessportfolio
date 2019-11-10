@@ -43,6 +43,10 @@ header {
   padding: 12% 0;
 }
 
+.anchor-div {
+  padding-top: 2em;
+}
+
 .responsive-image { 
   max-width: 100%;
   height: auto;
@@ -99,8 +103,8 @@ section:nth-child(even) {
   padding-bottom: 5em;
   outline-color:purple;
   outline-style: solid;
-  
-  
+  margin-bottom: 2em;
+
 }
 
 .css-link {
