@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  font-family: "Open Sans",
+  font-family: "Roboto",
   sans-serif; 
   font-size: 20px;
   color: #444;
@@ -56,6 +56,12 @@ section {
   min-height: 200px;
   padding: 6% 0;
   background-color: #bbb;
+}
+
+h2, h3 {
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Lato", serif;
+  font-weight: bold;
 }
 
 .css-container, .css-banner {
@@ -109,4 +115,14 @@ section:nth-child(even) {
 
 .css-link {
   padding-bottom: 1em;
+}
+
+#Link_To_Portfolio, #Link_To_Bio {
+  padding-top: 125px;
+  margin-top: -100px
+}
+
+#Home {
+  padding-top: 150px;
+  margin-top: -10px
 }
