@@ -16,6 +16,7 @@ body {
   /* width: 100%; */
   max-width: 65%;
   margin: auto;
+  background-color: #e5fcff;
 }
 
 main {
@@ -28,7 +29,7 @@ main {
 nav,
 footer {
   padding: 1% 0;
-  background-color: #aaa;
+  background-color: #8bb9bc;
 }
 
 nav {
@@ -37,14 +38,20 @@ nav {
   left: 0;
   right: 0;
   z-index: 10;
+  background-color: #8bb9bc;
 }
 
 header {
   padding: 12% 0;
 }
 
+.anchor-css {
+  color:#36413e;
+}
+
 .anchor-div {
   padding-top: 2em;
+  
 }
 
 .responsive-image { 
@@ -77,10 +84,6 @@ h2, h3 {
   padding-top: 2em;
 }
 
-section:nth-child(even) {
-  background-color: #ddd;
-}
-
 .nav-links, .nav-name { 
   display:inline-block;
   padding: .5em;
@@ -90,27 +93,30 @@ section:nth-child(even) {
   float:right;
   padding-top: 1.5em;
   padding-right: 2em;
+  
 }
 .nav-name { 
   float:left;
   padding-left: 2em;
   font-size: xx-large;
+  
 }
 
 .image-container, .text-container {
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
-  outline-color:black;
+  outline-color: #8bb9bc;
   outline-style: solid;
+  background-color: #FFF7F9;
 }
 
 .project-section {
   padding-bottom: 5em;
-  outline-color:purple;
+  outline-color: #8bb9bc;
   outline-style: solid;
   margin-bottom: 2em;
-
+  background-color: #E9E3E6;
 }
 
 .css-link {
@@ -124,5 +130,5 @@ section:nth-child(even) {
 
 #Home {
   padding-top: 150px;
-  margin-top: -150px
+  margin-top: -150px;
 }
