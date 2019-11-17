@@ -119,10 +119,10 @@ section:nth-child(even) {
 
 #Link_To_Portfolio, #Link_To_Bio {
   padding-top: 125px;
-  margin-top: -100px
+  margin-top: -125px
 }
 
 #Home {
   padding-top: 150px;
-  margin-top: -10px
+  margin-top: -150px
 }
