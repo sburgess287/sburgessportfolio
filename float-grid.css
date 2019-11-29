@@ -33,8 +33,6 @@
 /* Mobile defaults */
 
 
-
-
 /* Non-mobile, grid */
 @media only screen and (min-width: 640px) {
   /* 3 columns, 3/12 in % */
@@ -61,18 +59,13 @@
 
 /* Smartphones (portrait and landscape) ----------- */
 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    /* Styles */
+  /* Styles */
 
   body {
     min-height: 900px;
     max-width: 100%;
-    /* width: 100%; */
    
   }
-
-  /* main{
-    width: 100%;
-  } */
 
   header {
     padding-top: 5em;
@@ -83,71 +76,76 @@
     margin: .5em;
   }
 
-  .nav-bar {
-    padding: .5em;
-  }
-
-  h1{
+  h1 {
     font-size: xx-large;
   }
 
+  h2 {
+    font-size: x-large;
+  }
 
+  p, .css-link {
+    font-size: medium;
+  }
 
   .css-banner {
-    padding-top: 0;
+    padding-top: 3.5em;
   }
 
   .landingpagetext{
     font-size: medium;
   }
 
-  .nav-links, .nav-name{
-    display:inline-block;
-    padding: .5em;
+  .nav-name {
+    display: block;
+    padding: 0 1.5em 0 2.5em;
   }
   
+  ul {
+    padding: 0;
+  }
+
   .nav-links {
     float:none;
     padding-top: 0;
-    /* padding-right: 2em; */
+    display:inline-block;
+    padding-right: 0;
+    
   }
-  .nav-name { 
-    /* float:left; */
-    /* padding-left: 2em; */
-    /* display:block;
-    font-size: xx-large; */
-    display:none;
+
+  .github-css {
+    display: none;
+  }
+
+  .image-container {
+    padding: 0;
   }
 
 }  
 
   /* iPads (landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-/* Styles */
-body {
-  min-height: 900px;
-  max-width:100%;
+  /* Styles */
+  body {
+    min-height: 900px;
+    max-width:100%;
+    max-height: 100%;
+  }
+
+  .nav-button, .nav-button-link {
+    width: 80%;
+    margin: .5em 0;
+  }
+
 }
 
-.nav-button, .nav-button-link {
-  width: 80%;
-  margin: .5em 0;
-}
-
-}
-
- /* iPads (portrait) -----------  */
- @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
- /* Styles  */
- body {
-  min-height: 900px;
-  max-width:100%;
-}
- 
-/* .nav-button, .nav-button-link {
-  width: 80%;
-  margin: .5em 0;
-} */
+/* iPads (portrait) -----------  */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles  */
+  body {
+    min-height: 900px;
+    max-width:100%;
+  }
 
  
- }
+}

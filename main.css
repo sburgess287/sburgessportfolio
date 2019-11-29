@@ -13,7 +13,6 @@ body {
   color: #444;
   text-align: center;
   line-height: 1.5;
-  /* width: 100%; */
   max-width: 65%;
   margin: auto;
   background-color: #e5fcff;
@@ -130,7 +129,12 @@ h2, h3 {
   padding-bottom: 1em;
 }
 
-#Link_To_Portfolio, #Link_To_Bio {
+#Link_To_Portfolio {
+  padding-top: 125px;
+  margin-top: -175px
+}
+
+#Link_To_Bio {
   padding-top: 125px;
   margin-top: -125px
 }
