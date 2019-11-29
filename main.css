@@ -109,8 +109,8 @@ h2, h3 {
   outline-color: #8bb9bc;
   outline-style: solid;
   background-color: #FFF7F9;
+  padding: 0 1.25em 0 1.25em;
 }
-
 .project-section {
   padding-bottom: 5em;
   outline-color: #8bb9bc;
@@ -119,6 +119,13 @@ h2, h3 {
   background-color: #E9E3E6;
 }
 
+.image-container {
+  padding: 2em;
+}
+
+.text-container {
+  padding: 1.5em;
+}
 .css-link {
   padding-bottom: 1em;
 }
