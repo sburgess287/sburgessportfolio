@@ -9,4 +9,3 @@ https://sburgess287.github.io/sburgessportfolio/
 ### Technology
 - HTML
 - CSS
-- JavaScript
