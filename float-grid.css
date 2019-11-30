@@ -63,7 +63,8 @@
 
   body {
     min-height: 900px;
-    max-width: 100%;
+    /* max-width: 100%; */
+    width: 100%;
    
   }
 
@@ -98,8 +99,7 @@
 
   .nav-name {
     display: block;
-    padding: 0 1.5em 0 2.5em;
-    /* padding: .5em; */
+    float: none;
   }
   
   ul {
@@ -110,18 +110,18 @@
     float:none;
     padding-top: 0;
     display:inline-block;
-    padding-right: 0;
-  
-    
   }
 
   .github-css {
     display: none;
   }
 
-  .image-container {
+  .image-container, .text-container {
     padding: 0;
+    max-width: 100%;
   }
+
+  
 
 }  
 

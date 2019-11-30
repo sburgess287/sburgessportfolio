@@ -79,29 +79,21 @@ h2, h3 {
 
 .css-banner {
   min-height: 150px;
-  padding-top: 2em;
-}
-
-.nav-links, .nav-name { 
-  display:inline-block;
-  padding: .5em;
+  padding-top: 4.5em;
 }
 
 .nav-links {
-  float:right;
   padding-top: 1.5em;
   padding-right: 2em;
-  
+  display: inline;
 }
+
 .nav-name { 
-  float:left;
-  padding-left: 2em;
+  display: block;
   font-size: xx-large;
-  
 }
 
 .image-container, .text-container {
-  max-width: 80%;
   margin-left: auto;
   margin-right: auto;
   outline-color: #8bb9bc;
@@ -109,8 +101,8 @@ h2, h3 {
   background-color: #FFF7F9;
   padding: 0 1.25em 0 1.25em;
 }
+
 .project-section {
-  padding-bottom: 5em;
   outline-color: #8bb9bc;
   outline-style: solid;
   margin-bottom: 2em;
@@ -124,6 +116,7 @@ h2, h3 {
 .text-container {
   padding: 1.5em;
 }
+
 .css-link {
   padding-bottom: 1em;
 }
