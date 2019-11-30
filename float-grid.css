@@ -63,9 +63,7 @@
 
   body {
     min-height: 900px;
-    /* max-width: 100%; */
     width: 100%;
-   
   }
 
   header {
@@ -108,8 +106,8 @@
 
   .nav-links {
     float:none;
-    padding-top: 0;
     display:inline-block;
+    padding: 0;
   }
 
   .github-css {
@@ -151,7 +149,7 @@
   }
 
   .nav-links {
-    padding-right: .5em;
+    padding: .5em;
   }
 
  

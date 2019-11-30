@@ -83,8 +83,7 @@ h2, h3 {
 }
 
 .nav-links {
-  padding-top: 1.5em;
-  padding-right: 2em;
+  padding: 1em;
   display: inline;
 }
 
